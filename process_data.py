@@ -2,6 +2,7 @@
 import numpy as np
 import torch
 from PIL import Image
+
 from torchvision.transforms import Compose, Resize, ToTensor, Normalize
 
 def preprocess(img: Image.Image) -> torch.Tensor:
