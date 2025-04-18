@@ -2,12 +2,27 @@
 
 This repository contains an enhanced U-Net architecture for Cityscapes segmentation with Atrous Spatial Pyramid Pooling (ASPP) and improved upsampling. The model is built using PyTorch and includes preprocessing and postprocessing utilities.
 
-## Requirements
+## Required Libraries and Installation
 
-To run the model, install the following dependencies:
+This project depends on the following libraries:
+
+- Python 3.7 or higher
+- PyTorch
+- torchvision
+- NumPy
+- Pillow
+- tqdm
+
+Install all dependencies using:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Or install individually:
+
+```bash
+pip install torch torchvision numpy pillow tqdm
 ```
 
 ## Model Overview
@@ -75,5 +90,12 @@ segmentation_map = postprocess(output, output_shape)
 
 The model weights (`model.pth`) are too large to store in this repository. Please download the pretrained model from the following link:
 
-- [Download `model.pth` from Google Drive](https://drive.google.com/file/d/1nUpYHn0DDzKIxhjxaHIgQSLoqLB_XYZ_/view?usp=sharing)
+- [Download `model.pth` from Google Drive](https://drive.google.com/your-link-here)
+
+## Contact Information for Codalab Mapping
+
+To ensure correct mapping across Codalab and other systems, please use the following credentials:
+
+- **Codalab Username**: pragnanerella
+- **TU/e Email Address**: v.p.nerella@student.tue.nl
 
